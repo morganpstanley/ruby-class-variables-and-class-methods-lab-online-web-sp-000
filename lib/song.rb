@@ -12,6 +12,9 @@ class Song
     @@count += 1
     if @@artists.include?(artist)
     else @@artists << artist
+    end
+
+
   end
 
   def self.count
