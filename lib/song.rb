@@ -35,6 +35,7 @@ class Song
         genre_array[genre] = 1
       end
     end
+    return genre_array
   end
 
 
